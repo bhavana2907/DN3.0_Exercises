@@ -77,11 +77,12 @@ public class LibraryManagementSystem {
         LibraryManagementSystem system = new LibraryManagementSystem(10);
 
         // Add books
-        system.addBook(new Book(1, "The Great Gatsby", "F. Scott Fitzgerald"));
+        system.addBook(new Book(1, "The Wings of Fire", "Dr. A.P.J.  Abdul Kalam"));
         system.addBook(new Book(2, "1984", "George Orwell"));
-        system.addBook(new Book(3, "To Kill a Mockingbird", "Harper Lee"));
-        system.addBook(new Book(4, "Moby Dick", "Herman Melville"));
+        system.addBook(new Book(3, "The god of Small Things", "Arundathi Roy"));
+        system.addBook(new Book(4, "The White Tiger", "Aravind Adiga"));
         system.addBook(new Book(5, "Pride and Prejudice", "Jane Austen"));
+
 
         // Sort books by title for binary search
         system.sortBooksByTitle();
