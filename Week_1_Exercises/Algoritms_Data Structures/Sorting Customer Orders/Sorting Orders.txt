@@ -1,0 +1,51 @@
+Step 1: Understand Sorting Algorithms
+
+Bubble Sort:
+Description: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+Time Complexity:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+
+Insertion Sort:
+Description: Builds the final sorted array one item at a time, by comparing each new item with the already sorted items and inserting it into the correct position.
+Time Complexity:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+
+Quick Sort:
+Description: An efficient, in-place sorting algorithm that works by selecting a 'pivot' element and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. 
+The sub-arrays are then sorted recursively.
+
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2)
+
+Merge Sort:
+Description: A divide-and-conquer algorithm that divides the list into halves, recursively sorts each half, and then merges the sorted halves to produce the sorted list.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+
+Step 4: Analysis
+Time Complexity
+
+Bubble Sort::
+Best Case: O(n) (when the array is already sorted)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+
+Quick Sort:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2) (when the pivot selection is poor, e.g., already sorted array with the first element as pivot).
+
+Why Quick Sort is Generally Preferred Over Bubble Sort
+
+Efficiency: Quick Sort has an average and best-case time complexity of O(n log n), making it significantly faster than Bubble Sort for large datasets.
+Scalability: Quick Sort is more scalable and handles large arrays more efficiently.
+Performance: Although Quick Sort can degrade to O(n^2) in the worst case, it is typically optimized with better pivot selection techniques to avoid this scenario.
+\Bubble Sort, on the other hand, has consistently poor performance with O(n^2) time complexity in average and worst cases.
