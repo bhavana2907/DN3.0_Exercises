@@ -79,9 +79,10 @@ public class EmployeeManagementSystem {
         EmployeeManagementSystem system = new EmployeeManagementSystem(10);
 
         // Add employees
-        system.addEmployee(new Employee(1, "Alice", "Manager", 75000));
-        system.addEmployee(new Employee(2, "Bob", "Developer", 60000));
-        system.addEmployee(new Employee(3, "Charlie", "Analyst", 55000));
+         system.addEmployee(new Employee(1, "Ankitha", "Manager", 75000));
+        system.addEmployee(new Employee(2, "Manoj", "Developer", 60000));
+        system.addEmployee(new Employee(3, "Charan", "Analyst", 55000));
+
 
         // Traverse employees
         System.out.println("\nEmployees:");
