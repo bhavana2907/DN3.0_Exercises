@@ -61,11 +61,11 @@ public class StrategyPatternExample {
         PaymentContext paymentContext = new PaymentContext();
 
         // Pay using Credit Card
-        paymentContext.setPaymentStrategy(new CreditCardPayment("John Doe", "1234567812345678", "123", "12/25"));
+        paymentContext.setPaymentStrategy(new CreditCardPayment("Ankitha", "1234567898", "123", "12/25"));
         paymentContext.executePayment(500.0);
 
         // Pay using PayPal
-        paymentContext.setPaymentStrategy(new PayPalPayment("john.doe@example.com", "password123"));
+        paymentContext.setPaymentStrategy(new PayPalPayment("ankitha@example.com", "password294"));
         paymentContext.executePayment(300.0);
     }
 }
