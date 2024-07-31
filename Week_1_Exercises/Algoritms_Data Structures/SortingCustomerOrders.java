@@ -93,11 +93,12 @@ public class Main {
 
         // Reset the orders array for Quick Sort
         orders = new Order[]{
-            new Order(1, "Alice", 250.0),
-            new Order(2, "Bob", 150.0),
-            new Order(3, "Charlie", 200.0),
-            new Order(4, "David", 300.0),
-            new Order(5, "Eve", 100.0)
+            new Order(1, "Kumar", 350.0),
+            new Order(2, "Raju", 950.0),
+            new Order(3, "Joe", 400.0),
+            new Order(4, "Pankaj", 600.0),
+            new Order(5, "Emma", 300.0)
+
         };
 
         // Quick Sort
