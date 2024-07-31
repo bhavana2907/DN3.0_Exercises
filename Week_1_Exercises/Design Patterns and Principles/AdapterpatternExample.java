@@ -68,8 +68,8 @@ public class AdapterPatternExample {
         PaymentHandler stripeAdapter = new StripeHandlerAdapter(stripeService);
         PaymentHandler amazonPayAdapter = new AmazonPayHandlerAdapter(amazonPayService);
 
-        payPalAdapter.handlePayment(100.00);
-        stripeAdapter.handlePayment(200.00);
-        amazonPayAdapter.handlePayment(300.00);
+        payPalAdapter.handlePayment(400.00);
+        stripeAdapter.handlePayment(500.00);
+        amazonPayAdapter.handlePayment(600.00);
     }
 }
