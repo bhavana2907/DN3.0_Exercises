@@ -1,0 +1,23 @@
+Step 1: Understand Asymptotic Notation
+
+Big O Notation
+Definition: Big O notation describes the upper limit of the time complexity of an algorithm. It gives an idea of how the runtime of an algorithm grows as the input size increases.
+Purpose: Helps in comparing the efficiency of different algorithms by focusing on their growth rates.
+Best, Average, and Worst-Case Scenarios
+
+Best Case: The scenario where the algorithm performs the minimum number of operations (e.g., finding the element on the first try).
+Average Case: The scenario representing the expected number of operations, considering all possible inputs.
+Worst Case: The scenario where the algorithm performs the maximum number of operations (e.g., searching through the entire array).
+
+Step 4: Analysis
+
+Time Complexity:
+Linear Search:
+Best Case: O(1) (The element is at the first position)
+Average Case: O(n/2) which simplifies to O(n) (The element is in the middle)
+Worst Case: O(n) (The element is at the last position or not present)
+
+Binary Search:
+Best Case: O(1) (The element is at the middle position in the first check)
+Average Case: O(log n) (The array is divided in half each time)
+Worst Case: O(log n) (The element is in the last possible position after log n divisions)
